@@ -1,0 +1,34 @@
+﻿@model LeventKomanBlog.Models.Category
+
+@{
+    ViewBag.Title = "Kategori Detayları";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>@ViewBag.Title</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayName("Kategori")
+                <br/>
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CategoryName)
+            </dd>
+
+        </dl>
+        <p>
+            @Bootstrap.LinkButton("/AdminCategory/Edit/" + Model.Id, "warning", string.Empty, string.Empty, "edit", " Düzenle")
+            @Bootstrap.LinkButton("/AdminCategory/Index", "secondary", string.Empty, string.Empty, "arrow-left", " Geri Dön!")
+        </p>
+
+    </div>
+</div>

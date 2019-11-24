@@ -1,0 +1,82 @@
+﻿@model IEnumerable<LeventKomanBlog.Models.Article>
+
+@{
+    ViewBag.Title = "Makale Listeleme Sayfası";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+    <div class="col-md-12">
+        <h5>@ViewBag.Title</h5>
+        <p>
+
+            @Bootstrap.LinkButton("/AdminArticle/Create", "primary", string.Empty, string.Empty, "plus", " Yeni")
+        </p>
+    </div>
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <table  width="500" class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.CategoryName)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contents)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Photo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReadsCount)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Contents)
+                    </td>
+                    <td>
+                        <img width="75" height="75" src="@item.Photo" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReadsCount)
+                    </td>
+                    <td width="125">
+
+                        @Bootstrap.LinkButton("/AdminArticle/Edit/" + item.Id, "warning", "btn-sm", "Düzenle", "edit", "Düzenle")
+
+                        @Bootstrap.LinkButton("/AdminArticle/Details/" + item.Id, "info", "btn-sm", "Detaylar", "search", "Detay")
+
+                        @Bootstrap.LinkButton("/AdminArticle/Delete/" + item.Id, "danger", "btn-sm", "Kaldır", "trash", "Sil")
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+    </div>
+</div>

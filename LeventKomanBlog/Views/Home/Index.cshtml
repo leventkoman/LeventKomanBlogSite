@@ -1,0 +1,69 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<LeventKomanBlog.Models.Article>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <div class="col-md-9 col-md-offset-1">
+        @foreach (var item in Model)
+        {
+            <h2>
+                <a href="/Home/ArticleDetails/@item.Id">@item.Title</a>
+            </h2>
+            <div class="row">
+                <p class="lead">
+                    <span><img width="45" height="45" class="img-circle img-responsive" alt="@item.User.Username" src="@item.User.UserPhoto " />
+                        <a href="/Home/About">@item.User.Username</a></span>
+                </p>
+                <p>
+                    <span class="glyphicon glyphicon-time"></span> @item.Date.Value.ToString("dd MMMM yyyy") &nbsp; | &nbsp;
+                    <span class="glyphicon glyphicon-edit"></span> @item.Category.CategoryName (@item.Category.Article.Count()) &nbsp; | &nbsp;
+                    <span class="glyphicon glyphicon-send"></span> Yorumlar (@item.Comment.Count()) &nbsp; | &nbsp;
+                    <span class="glyphicon glyphicon-eye-open"></span> Görüntülenme (@item.ReadsCount)
+                </p>
+            </div>
+
+            <hr>
+            <img class="img-responsive" src="@item.Photo" alt="">
+            <hr>
+            if (item.Contents.Length > 150)
+            {
+                <p>@Html.Raw(item.Contents.Substring(0, 150)) ... </p>
+            }
+
+            else
+            {
+                <p>@Html.Raw(item.Contents)</p>
+            }
+
+            <a class="btn btn-primary" href="/Home/ArticleDetails/@item.Id">
+                Devamını Oku
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <hr>
+
+        }
+    </div>
+    <br/>
+    <br/>
+
+    <br/>
+    <div class="well well-lg col-md-2 ">
+
+           @Html.Partial("SearchPartial")
+
+    </div>
+    <div class="">
+        <div class="col-md-8 text-center">
+            <div class="pagedList pagination-lg">
+                @Html.PagedListPager(@Model,Page=>Url.Action("Index", new { Page}), PagedListRenderOptions.Classic)
+            </div>
+        </div>
+    </div>
+</div>
+

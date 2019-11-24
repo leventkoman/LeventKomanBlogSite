@@ -1,0 +1,131 @@
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\ApplicationInsights.config
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\csc.exe
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\vbc.exe
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\LeventKomanBlog.dll.config
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\LeventKomanBlog.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\LeventKomanBlog.pdb
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\DevExpress.Data.v17.1.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\DevExpress.Xpo.v17.1.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.Web.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.Mvc.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Helpers.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Mvc.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Razor.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Razor.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\DevExpress.Data.v17.1.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\DevExpress.Xpo.v17.1.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.Web.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.Mvc.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Razor.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Razor.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Helpers.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Mvc.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\bin\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.pdb
+C:\Users\Levent\documents\visual studio 2015\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.csprojResolveAssemblyReference.cache
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\ApplicationInsights.config
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\csc.exe
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\System.Collections.Immutable.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\System.Reflection.Metadata.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\vbc.exe
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\VBCSCompiler.exe
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\roslyn\VBCSCompiler.exe.config
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\LeventKomanBlog.dll.config
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\LeventKomanBlog.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\LeventKomanBlog.pdb
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.SqlServer.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.DependencyCollector.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.Web.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.WindowsServer.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.ApplicationInsights.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.Web.Infrastructure.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.Mvc.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Helpers.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Mvc.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Razor.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Deployment.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Razor.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\DevExpress.Data.v17.1.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\DevExpress.Xpo.v17.1.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\EntityFramework.SqlServer.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.DependencyCollector.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.Web.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.AI.WindowsServer.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.ApplicationInsights.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\PagedList.Mvc.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Razor.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Deployment.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Webpages.Razor.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Helpers.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\System.Web.Mvc.xml
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\de\DevExpress.Data.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\es\DevExpress.Data.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\ja\DevExpress.Data.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\ru\DevExpress.Data.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\de\DevExpress.Xpo.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\es\DevExpress.Xpo.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\ja\DevExpress.Xpo.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\bin\ru\DevExpress.Xpo.v17.1.resources.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.csprojAssemblyReference.cache
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.csproj.CopyComplete
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.dll
+F:\Son\Visual Studio\Projects\LeventKomanBlog\LeventKomanBlog\obj\Debug\LeventKomanBlog.pdb

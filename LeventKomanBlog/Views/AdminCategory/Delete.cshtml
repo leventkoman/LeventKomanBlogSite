@@ -1,0 +1,40 @@
+﻿@model LeventKomanBlog.Models.Category
+
+@{
+    ViewBag.Title = "Kategori Sil";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <br />
+        <h3>Silmek istediğinize emin misiniz?</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayName("Kategori")
+                <br />
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CategoryName)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                @Bootstrap.Button("danger", string.Empty, "submit", "trash", " Sil")
+                @Bootstrap.LinkButton("/AdminCategory/Index/", "secondary", string.Empty, string.Empty, "arrow-left", "Listeye Geri Dön")
+            </div>
+        }
+    </div>
+
+</div>

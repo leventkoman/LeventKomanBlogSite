@@ -1,0 +1,48 @@
+﻿@model IEnumerable<LeventKomanBlog.Models.Category>
+
+@{
+    ViewBag.Title = "Kategori Listeleme Sayfası";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+
+    <div class="col-md-12">
+        <h2>@ViewBag.Title</h2>
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            @Bootstrap.LinkButton("/AdminCategory/Create", "primary", string.Empty, string.Empty, "plus", " Yeni")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayName("Kategori")
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+                        @Bootstrap.LinkButton("/AdminCategory/Edit/" + item.Id, "warning", "btn-sm", "Düzenle", "edit", " Düzenle")
+
+                        @Bootstrap.LinkButton("/AdminCategory/Details/" + item.Id, "info", "btn-sm", "Detaylar", "search", " Detaylar")
+
+                        @Bootstrap.LinkButton("/AdminCategory/Delete/" + item.Id, "danger", "btn-sm", "Kaldır", "trash", " Kaldır")
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+    </div>
+</div>

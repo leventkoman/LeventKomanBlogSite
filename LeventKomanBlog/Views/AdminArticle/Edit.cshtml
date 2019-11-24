@@ -1,0 +1,61 @@
+﻿@model LeventKomanBlog.Models.Article
+
+@{
+    ViewBag.Title = "Makale Düzenle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>@ViewBag.Title</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(false)
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CategoryId,"Kategori", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("CategoryId", null, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Title,"Başlık", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextAreaFor(model => model.Title, 1, 10, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Contents,"İçerik", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextAreaFor(model => model.Contents, 5, 30, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Photo,"Fotoğraf", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-12">
+                        <img width="175" height="75" src="@Model.Photo" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        @Bootstrap.Button("success", string.Empty, "submit", "floppy-saved", " Kaydet")
+                        @Bootstrap.LinkButton("/AdminArticle/Index", "secondary", string.Empty, string.Empty, "arrow-left", " Geri Dön!")
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

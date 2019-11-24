@@ -1,0 +1,11 @@
+﻿.validation-summary-valid{
+    border: 2px dotted #a94442;
+    background-color: #d76663;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.validation-summary-valid ul{
+    list-style-type: none;
+    padding: 10px;
+    color: #fff;
+}

@@ -1,0 +1,79 @@
+﻿@model LeventKomanBlog.Models.Article
+
+@{
+    ViewBag.Title = "Makaleyi Sil";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <br />
+        <h3>Silmek istediğinize emin misiniz?</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayName("Kategori")
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Category.CategoryName)
+            </dd>
+
+            <dt>
+                @Html.DisplayName("Başlık")
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayName("İçerik")
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Contents)
+            </dd>
+
+            <dt>
+                @Html.DisplayName("Fotoğraf")
+            </dt>
+
+            <dd>
+                <img width="175" height="75" src="@Model.Photo" />
+            </dd>
+
+            <dt>
+                @Html.DisplayName("Tarih")
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+
+            <dt>
+                @Html.DisplayName("Okunma Sayısı")
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ReadsCount)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+            {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                @Bootstrap.Button("danger", string.Empty, "submit", "trash", " Sil")
+                @Bootstrap.LinkButton("/AdminArticle/Index/", "secondary", string.Empty, string.Empty, "arrow-left", "Listeye Geri Dön")
+            </div>
+        }
+    </div>
+</div>

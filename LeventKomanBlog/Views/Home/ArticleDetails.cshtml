@@ -1,0 +1,120 @@
+﻿@using System.Activities.Statements
+@model LeventKomanBlog.Models.Article
+
+@{
+    ViewBag.Title = "ArticleDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="col-md-8">
+
+        <h2>
+            <a href="#">@Model.Title</a>
+        </h2>
+
+        <p class="lead">
+            <span>
+                <img width="45" height="45" class="img-circle img-responsive" alt="@Model.User.Username" src="@Model.User.UserPhoto " />
+                <a href="/Home/About">@Model.User.Username</a>
+            </span>
+        </p>
+        <p>
+            <span class="glyphicon glyphicon-time"></span> @Model.Date.Value.ToString("dd MMMM yyyy") &nbsp; | &nbsp;
+            <span class="glyphicon glyphicon-edit"></span> @Model.Category.CategoryName (@Model.Category.Article.Count()) &nbsp; | &nbsp;
+            <span class="glyphicon glyphicon-send"></span> Yorumlar (@Model.Comment.Count()) &nbsp; | &nbsp;
+            <span class="glyphicon glyphicon-eye-open"></span> Görüntülenme (@Model.ReadsCount)
+        </p>
+
+
+        <hr>
+        <img class="img-responsive" src="@Model.Photo" alt="">
+        <hr>
+        <p class="lead">
+            @Html.Raw(Model.Contents)
+        </p>
+        <hr>
+
+
+        @if (Session["userid"] != null)
+        {
+            <div class="well">
+                <h4>Yorum</h4>
+                <form role="form">
+                    <div class="form-group">
+                        <textarea id="yorum" typeof="text" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" id="gonder" class="btn btn-primary"> Yorum Yap</button>
+                </form>
+            </div>
+        }
+
+        else
+        {
+            <h1>Makaleye yorum yapabilmek için kullanıcı girişi yapmalısınız</h1>
+            <p><a href="/Account/Login">Giriş Yap</a></p>
+        }
+
+        <div class="well">
+            @foreach (var item in Model.Comment.ToList())
+            {
+                    <a>
+                        <img class="media-object img-circle img-responsive" width="45" height="45"
+                             src="@item.User.UserPhoto " alt="@item.User.Username" />
+                    </a>
+                    <div class="container">
+                        <h4 class="row">
+                            @item.User.Username
+                            <small>@item.Date</small>
+                        </h4>
+
+                        <div class="row">
+                            <p>@item.CommentOfContent</p><hr />
+                        </div> &nbsp;&nbsp;
+
+                        @if (Convert.ToInt32(Session["userid"]) == item.UserId)
+                {
+                    <a
+
+                        class="btn btn-danger" href="/Home/DeleteComment/@item.Id" onclick="return confirm('Hesabınızı silmek istediğinize emin misiniz?');">Sil
+
+                    </a>
+
+                        }
+                    </div>
+            }
+
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+            $.ajax({
+                url: '/Home/ReadsCounter/',
+                data: { Makaleid: @Model.Id },
+                type: 'POST',
+            });
+    })
+
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+        $("#gonder").click(function (){
+            var yorumunuz = $("#yorum").val();
+            $.ajax({
+                url: '/Home/CreateComment/',
+                data: { yorum:yorumunuz, Makaleid:@Model.Id },
+                type: 'POST',
+                dataType: 'json',
+                success: function(data) {
+                    alert("Yorumunuz başarılı olarak eklendi.");
+                }
+            });
+        });
+    })
+
+</script>

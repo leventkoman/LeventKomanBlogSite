@@ -1,0 +1,75 @@
+﻿@model LeventKomanBlog.Models.Article
+
+@{
+    ViewBag.Title = "Yeni Makale Oluşturma Sayfası";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>@ViewBag.Title</h2>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-lg-offset-2">
+        @using (Html.BeginForm("Create", "AdminArticle", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(false)
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CategoryId, "Kategori", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DropDownList("CategoryId", null, htmlAttributes: new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Title, "Başlık", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.TextAreaFor(model => model.Title, 1, 10, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Contents,"İçerik", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-12">
+                        @Html.TextAreaFor(model => model.Contents, 3, 20, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Photo,"Fotoğraf" ,htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        <input type="file" name="ImageFile" id="ImageFile" accept=".jpg,.png,.gif,.JPEG,.jpeg,.JPG" class="form-control" />
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Date,"Tarih", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("Etiket" ,new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        @Html.TextBox("Etiket")
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        @Bootstrap.Button("success", string.Empty, "submit", "plus", " Kaydet")
+                        @Bootstrap.LinkButton("/AdminArticle/Index", "secondary", string.Empty, string.Empty, "arrow-left", " Geri Dön!")
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
